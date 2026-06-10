@@ -1,20 +1,23 @@
 function Footer() {
   return (
-    <footer className="bg-[#2f63b8] text-white">
-      <div className="mx-auto w-full max-w-[1200px] px-6 py-16 md:px-10 lg:py-20">
+    <footer className="bg-[#2f63b8] text-white p-8">
+      <div className="mx-auto max-w-[1200px]">
         <div className="text-center">
           <h2 className="text-3xl font-bold md:text-4xl">Ready to Build Something Secure?</h2>
-          <div className="mt-8 flex justify-center">
+          <div className="mt-6">
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-white/80">Contact Us Today</p>
+          </div>
+          <div className="mt-6 flex justify-center">
             <a
               href="mailto:admin@serinix.co.za"
-              className="inline-flex rounded-lg bg-[#e85bd8] px-10 py-4 text-sm font-semibold text-white transition hover:bg-[#d63dc2]"
+              className="rounded-lg bg-[#e85bd8] px-10 py-4 text-sm font-semibold text-white transition hover:bg-[#d63dc2]"
             >
               Contact Us Today
             </a>
           </div>
         </div>
 
-        <div className="mt-16 grid gap-12 text-center md:grid-cols-3 md:text-left">
+        <div className="mt-12 grid gap-12 text-center md:grid-cols-3 md:text-left">
           <div className="flex flex-col items-center gap-5 md:items-start">
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-white text-xl">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6">
@@ -61,7 +64,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 border-t border-white/20 pt-6 text-center text-[13px] text-white/70">
+        <div className="mt-12 border-t border-white/20 pt-6 text-center text-sm text-white/70">
           © 2026 Serinix. All rights reserved. Enterprise Number: k2014171533
         </div>
       </div>
